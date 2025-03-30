@@ -1,0 +1,24 @@
+[project]
+name = "medchat"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "neo4j (>=5.28.1,<6.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "load-dotenv (>=0.1.0,<0.2.0)",
+    "langchain (>=0.3.20,<0.4.0)",
+    "langchain-openai (>=0.3.8,<0.4.0)",
+    "langchain-community (>=0.3.19,<0.4.0)",
+    "langchain-neo4j (>=0.4.0,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
